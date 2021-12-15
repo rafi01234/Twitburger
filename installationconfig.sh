@@ -18,7 +18,7 @@ export PATH=$PATH:/home/osboxes/.local/bin
 pip3 install twint
 echo "Installing twint... Please wait."
 
-sudo apt install lolcat figlet
+sudo apt install lolcat figlet -y
 echo "Installing lolcat & figlet... Please wait."
 
 sudo apt install git -y
