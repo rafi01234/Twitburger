@@ -24,3 +24,6 @@ echo "Installing git... Please wait."
 
 git clone https://github.com/rafi01234/Twitburger
 
+cd Twitburger
+
+bash pulldownmenu.sh
