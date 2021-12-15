@@ -24,6 +24,16 @@ echo "Installing lolcat & figlet... Please wait."
 sudo apt install git -y
 echo "Installing git... Please wait."
 
+git clone https://github.com/twintproject/twint.git
+cd twint
+export PATH=$PATH:/home/osboxes/.local/bin
+pip3 install . -r requirements.txt
+pip3 install aiohttp==3.7.0
+
+sudo python3 setup.py install
+
+cd ..
+
 
 git clone https://github.com/rafi01234/Twitburger
 
